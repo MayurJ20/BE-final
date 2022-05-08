@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="../static/services.css">
+{% endblock %}
+
+{% block content %}
+<!-- Flex Container -->
+<div id="container">
+    <div class="button" id="button-1">
+        <div id="slide"></div>
+        <a href="{% url 'options' %}">Prediction</a>
+    </div>
+    <div class="button" id="button-2">
+        <div id="slide"></div>
+        <a href="{% url 'monitor' %}">Live monitoring</a>
+    </div>
+<!-- End Container -->
+</div>
+{% endblock %}

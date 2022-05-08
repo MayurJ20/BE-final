@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block extra_head %}
+	<link rel="stylesheet" type="text/css" href="../static/options.css"/>
+{% endblock %}
+
+{% block content %}
+      <a href="" class="button">Potato</a>
+      <a href="" class="button">Tomato</a>
+      <a href="" class="button">Strawbery</a>
+      <a href="" class="button">Corn</a>
+      <a href="{% url 'im_upload' %}" class="button">Apple</a>
+{% endblock %}

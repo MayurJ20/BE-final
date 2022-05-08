@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="../static/prediction.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+{% endblock %}
+
+{% block content %}
+  
+  <div id="maintext" style="position:absolute; margin:auto; width:700px; height:300px; text-align:center; top:0; bottom: 0; left: 0; right: 0;">
+    <h1 class="text-light mb-5"> Our Prediction </h1>
+    <p class="text-light">Our CNN algorithm gave this prediction: </p>
+    <table class="table-bordered text-light" style="width:100%">
+    <tr>
+      <th>Infection Class</th>
+      <th>Probability</th>
+    </tr>
+    <tr>
+      <td>{{ name }}</td>
+      <td>{{ p_affected }}</td>
+    </tr>
+    </table>
+  </div>
+{% endblock %}

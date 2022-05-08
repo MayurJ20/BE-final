@@ -1,0 +1,30 @@
+
+*{
+    background-image: url('contact-us-2355449.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    font-family: cursive;
+    color: rgb(150, 144, 247);
+    text-decoration-style: solid;
+    font-size: larger;
+}
+
+.smallerfont{
+    position: relative;
+
+}
+.bigfont{
+    font-family: cursive;
+    color: black;
+    position: relative;
+    font-size: 50px;
+    margin-left: 70%;
+    margin-top: 99%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+}

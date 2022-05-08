@@ -1,0 +1,16 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2014/01/10/17/48/leaves-241701_960_720.jpg);
+    background-size: cover;
+
+  }
+  .button {
+    font: bold 50px Arial;
+    text-decoration-style: double;
+    background-color: #7700ff;
+    color: #000000;
+    padding: 15px 15px 15px 15px;
+    border-top: 10px solid #000000;
+    border-right: 10px solid #000000;
+    border-bottom: 10px solid #000000;
+    border-left: 10px solid #000000;
+  }
